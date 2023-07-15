@@ -1,26 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap');
+
 html {
-    scroll-behavior: smooth;
-  }
+  scroll-behavior: smooth;
+}
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 a:hover {
-    color: #ddd;
+  color: #ddd;
 }
 
-
 h1 {
-    color: #198754;
-    font-weight: 700;
+  color: var(--bs-green);
+  font-weight: 700;
 }
 
 h3 {
-    font-weight: 600;
+  font-weight: 600;
+}
+
+.card a {
+  transition: all 0.2s;
+}
+
+.card a:hover {
+  opacity: 0.8;
+}
+
+#skills li, #education li {
+    margin-bottom: 3px;
+}
+
+#skills span, #education span {
+  background-color: var(--bs-gray);
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#education span {
+    background-color: unset;
+    color: var(--bs-teal);
 }
