@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 ul {
     list-style-type: none;
 }
@@ -13,5 +17,10 @@ a:hover {
 
 
 h1 {
+    color: #198754;
     font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
 }

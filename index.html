@@ -25,17 +25,22 @@
           <img
             src="photo.jpg"
             class="img-thumbnail img-fluid w-100"
-            style="opacity: 0.7;"
+            style="opacity: 0.7"
             alt="profile photo"
           />
           <h1 class="text-success">Steliyan Petkov</h1>
           <h4>JavaScript Developer</h4>
+          <!-- Contacts -->
           <nav class="navbar navbar-expand justify-content-center">
             <ul class="navbar-nav">
               <!-- Email link -->
               <li class="nav-item">
-                <button class="btn btn-secondary mx-1" data-bs-target="#modal-email" data-bs-toggle="modal"
-                  ><svg
+                <button
+                  class="btn btn-secondary mx-1"
+                  data-bs-target="#modal-email"
+                  data-bs-toggle="modal"
+                >
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -53,7 +58,11 @@
                     <div class="modal-content py-2">
                       <div class="modal-header">
                         <h1>Email:</h1>
-                        <button class="btn-close" data-bs-dismiss="modal" data-bs-target="#modal-email"></button>
+                        <button
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          data-bs-target="#modal-email"
+                        ></button>
                       </div>
                       <h2 class="modal-body">stspsp@gmail.com</h2>
                     </div>
@@ -62,8 +71,12 @@
               </li>
               <!-- Phone link -->
               <li class="nav-item">
-                <button class="btn btn-secondary mx-1" data-bs-toggle="modal" data-bs-target="#modal-phone"
-                  ><svg
+                <button
+                  class="btn btn-secondary mx-1"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-phone"
+                >
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
                     height="24"
@@ -81,7 +94,11 @@
                     <div class="modal-content py-2">
                       <div class="modal-header">
                         <h1>Phone:</h1>
-                        <button class="btn-close" data-bs-dismiss="modal" data-bs-target="#modal-phone"></button>
+                        <button
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          data-bs-target="#modal-phone"
+                        ></button>
                       </div>
                       <h2 class="modal-body">+359883336074</h2>
                     </div>
@@ -89,8 +106,12 @@
                 </div>
                 <!-- Github link -->
               </li>
+              <!-- Github Link -->
               <li class="nav-item">
-                <a class="btn btn-secondary mx-1" href="https://github.com/stsp93"
+                <a
+                  class="btn btn-secondary mx-1"
+                  href="https://github.com/stsp93"
+                  target="_blank"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -107,7 +128,10 @@
               </li>
               <!-- LinkedIn Link -->
               <li class="nav-item">
-                <a class="btn btn-secondary mx-1" href="https://linkedin.com/in/steliyan-petkov-39b587247"
+                <a
+                  class="btn btn-secondary mx-1"
+                  href="https://linkedin.com/in/steliyan-petkov-39b587247"
+                  target="_blank"
                   ><svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -124,17 +148,108 @@
               </li>
             </ul>
           </nav>
+          <!-- Navigation -->
+          <ul class="navbar-nav d-xl-none">
+            <li class="nav-item">
+              <a
+                href="#about"
+                class="btn btn-success w-100 my-1"
+                data-mdb-smooth-scroll
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#education"
+                class="btn btn-success w-100 my-1"
+                data-mdb-smooth-scroll
+                >Education</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#skills"
+                class="btn btn-success w-100 my-1"
+                data-mdb-smooth-scroll
+                >Skills</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="#projects"
+                class="btn btn-success w-100 my-1"
+                data-mdb-smooth-scroll
+                >Projects</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="col p-md-5">
+        <div class="col p-md-5" id="about">
+          <!-- About -->
           <h1 class="text-success">About me</h1>
-          <p>A highly motivated and detail-oriented professional with 1+ years of
+          <p>
+            A highly motivated and detail-oriented professional with 1+ years of
             experience in web development. Committed to staying up-to-date with
             the latest industry trends and technologies, I am eager to apply my
             skills and further develop my abilities with a dynamic and
-            collaborative team.</p>
-            <div class="row">
-              
+            collaborative team.
+          </p>
+          <div class="row">
+            <!-- Education -->
+            <div class="col-lg-6 border-start" id="education">
+              <h1>Education</h1>
+              <h3>JavaScript Web Development</h3>
+              <h4>Software University, 01/2022 - 04/2023</h4>
+              <h5>Competencies</h5>
+              <ul>
+                <div class="row row-cols-2">
+                  <li>Web Development with JavaScript, HTML & CSS</li>
+                  <li>Node.js, React, and Express.js</li>
+                  <li>Client-side rendering</li>
+                  <li>Server-side rendering</li>
+                </div>
+                <div class="row row-cols-2">
+                  <li>Algorithms</li>
+                  <li>MongoDB Database</li>
+                  <li>Unit testing with Mocha and Chai</li>
+                  <li>Git version control</li>
+                </div>
+              </ul>
+
+              <h3>Navigation</h3>
+              <h4>Naval Academy, 09/2012 - 05/2016</h4>
+              <h5>Competencies</h5>
+              <ul>
+                <li>Navigation</li>
+                <li>English</li>
+                <li>Mathematics</li>
+                <li>Physics</li>
+              </ul>
             </div>
+            <!-- Skills -->
+            <div class="col" id="skills">
+              <h1>Skills</h1>
+              <ul>
+                <li>Proficiency in JavaScript, HTML5, CSS3</li>
+                <li>Experience with Node.js</li>
+                <li>Experience with React</li>
+                <li>Proficiency in English (written and spoken)</li>
+                <li>Experience with NoSQL (MongoDB)</li>
+                <li>Basic knowledge of SQL</li>
+                <li>Basic knowledge of Java</li>
+                <li>Familiar with Git</li>
+                <li>Problem-solving attitude</li>
+                <li>Highly motivated fast learner</li>
+                <li>Detail-oriented</li>
+              </ul>
+              <h2>Languages</h2>
+              <ul>
+                <li>English - Full Professional Proficiency</li>
+                <li>German - Limited Working Proficiency</li>
+                <li>Bulgarian - Native or Bilingual Proficiency</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
