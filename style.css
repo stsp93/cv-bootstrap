@@ -51,3 +51,13 @@ h3 {
     background-color: unset;
     color: var(--bs-teal);
 }
+
+.btn-scrollTop {
+    display: none;
+
+    position: sticky;
+    bottom: 20px;
+    left: 90%;
+
+    opacity: 0.8;
+}
