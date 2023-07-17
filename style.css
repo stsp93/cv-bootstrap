@@ -78,9 +78,10 @@ h3 {
 
 .education-span-light-theme {
   background-color: unset;
+  font-weight: 500;
   color: var(--bs-success) !important;
 }
 
 .skills-span-light-theme {
-  background-color: #ccc;
+  background-color: #aaa !important;
 }
