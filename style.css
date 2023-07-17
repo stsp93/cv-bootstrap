@@ -65,3 +65,22 @@ h3 {
 
     opacity: 0.9;
 }
+
+
+/* Light theme classes */
+.bg-dark-light-theme {
+  background-color: #eee !important;
+}
+
+.text-light-light-theme {
+  color: #111 !important;
+}
+
+.education-span-light-theme {
+  background-color: unset;
+  color: var(--bs-success) !important;
+}
+
+.skills-span-light-theme {
+  background-color: #ccc;
+}
