@@ -29,13 +29,32 @@ h3 {
   font-weight: 600;
 }
 
+.card {
+  border: none;
+}
+
 .card a {
-  transition: all 0.2s;
+  height: 60%;
+}
+
+.card a img {
+  object-fit: scale-down;
+  height: 100%;
 }
 
 .card a:hover {
-  opacity: 0.8;
+  animation: bounce 0.5s infinite;
 }
+
+@keyframes bounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(.97);
+  }
+}
+
 
 #skills li, #education li {
     margin-bottom: 3px;
